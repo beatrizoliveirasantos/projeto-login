@@ -7,7 +7,7 @@
     }
 
     section#login {
-        width: 90vw;
+        width: 100vw;
     }
 
     section#login > div#imagem {
@@ -42,4 +42,45 @@
         float: right;
         width: 50%;
     }
+
+    div#formulario > h1 {
+        font-size: 2em;
+    }
+
+    div#formulario > p {
+         font-size: 1.3em;
+    }
+    
 }
+
+div.campo {
+    background-color: rgb(82, 8, 82);
+    display: flex; /* Define o container como flex */
+    align-items: center; /* Alinha verticalmente os itens no centro */
+    height: 40px;
+    margin: 5px 0px;
+    border-radius: 8px;
+    border: 1px solid rgb(82, 8, 82);
+}
+
+div.campo > span {
+    color: white;
+    width: 40px;
+    padding: 5px;
+}
+
+div.campo > label {
+    display: none; /* Esconde o label, pois o placeholder já cumpre a função */
+}
+
+div.campo > input {
+    background-color: white;
+    font-size: 1em;
+    width: calc(100% - 40px); /* Usa a largura total menos a do ícone */
+    height: 100%;
+    border: 0px;
+    border-radius: 8px;
+    padding: 5px;
+    transform: translateY(1px); /* Ajusta ligeiramente a posição vertical */
+}
+
