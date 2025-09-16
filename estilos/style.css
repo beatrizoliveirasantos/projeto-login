@@ -11,7 +11,7 @@
 }
 
 body, html {
-    background-color: rgb(82, 8, 82);
+    background-image: linear-gradient(to top, rgb(145, 7, 179), rgb(68, 1, 95));
     height: 100vh;
     width: 100vw;
 }
@@ -59,4 +59,42 @@ div#formulario > h1 {
 
 div#formulario > p {
     font-size: 1.1em;
+}
+
+form > input[type=submit] {
+    display: block;
+    font-size: 1em;
+    width: 100%;
+    height: 37px;
+    background-color: blueviolet;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+form > input[type=submit]:hover {
+    background-color: rgba(137, 43, 226, 0.496);
+}
+
+form > a.botao {
+    display: block;
+    text-align: center;
+    font-size: 1em;
+    width: 100%;
+    height: 40px;
+    padding-top: 5px;
+    margin-top: 5px;
+    background-color: rgba(255, 255, 255, 0.584);
+    color: purple;
+    border: 1px solid blueviolet;
+    border-radius: 7px;
+    text-decoration: none;
+}
+
+form > a.botao:hover {
+    background-color: rgb(186, 168, 224);
+}
+
+form > a.botao > i {
+    font-size: 0.8em;
 }
