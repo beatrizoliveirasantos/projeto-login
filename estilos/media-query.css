@@ -48,10 +48,12 @@
     }
 
     div#formulario > p {
-         font-size: 1.3em;
+        font-size: 1.3em;
+        margin: 20px 0px;
     }
     
 }
+
 
 div.campo {
     background-color: rgb(82, 8, 82);
@@ -83,4 +85,3 @@ div.campo > input {
     padding: 5px;
     transform: translateY(1px); /* Ajusta ligeiramente a posição vertical */
 }
-
